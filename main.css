@@ -1,0 +1,210 @@
+body {
+  font-family: 'Architects Daughter', cursive;
+  height: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+  border-bottom: 2px solid black;
+  background: #f2f2f2;
+}
+
+.nav a:hover {
+  border: 1px gray solid;
+}
+
+
+/* for all four content sections */
+
+.content-section {
+  min-height: 100vh; padding-top: 100px; padding-bottom: 20px; 
+}
+
+
+/* HOME section */
+
+#home {
+  background-color: #333;
+  background: url("https://farm2.staticflickr.com/1455/26146959112_9ab6c0bb61_k.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 6rem;
+  color: black;
+}
+
+.homeBox {
+  width: 60%;
+  background-color: #f2f2f2;
+  background-color: rgba(242,242,242,.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid black;
+}
+
+@media (max-width: 900px){
+  .homeBox{
+    width: 90%;
+  }
+}
+
+#home h2 {
+  font-size: 3rem; 
+  color: black;
+}
+
+#home i {
+  margin: .1em;
+  color: black;
+}
+
+
+/* ABOUT ME section */
+
+#aboutMe {
+  background: #f2f2f2;
+  border-top: 3px solid black;
+}
+
+#aboutMe .container-fluid {
+  width: 70%;
+}
+
+@media (max-width: 800px) {
+  #aboutMe .container-fluid {
+    width: 90%;
+  }
+}
+
+#aboutMe img {
+  width: 60%;
+  height: auto;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+#aboutMe h1 {
+  margin-top: 1em;
+  text-decoration: underline;
+}
+
+#aboutMe p {
+  font-size: 1.3em;
+  text-align: left;
+  font-family: 'Amiri', serif; 
+}
+
+.skills {
+  text-align: left;
+}
+
+
+/* PORTFOLIO section */
+
+#portfolio {
+  background: #f2f2f2;
+  border-top: 2px solid gray;
+  border-bottom: 3px solid black;
+}
+
+#portfolio p, h1 {
+  text-align: center;
+}
+
+#portfolio p {
+  font-size: 1.3em;
+  font-family: 'Amiri', serif;
+}
+
+#portfolio h1 {
+  font-size: 3.5em;
+  text-decoration: underline;
+}
+
+
+#portfolio img {
+  border: 1px gray solid;
+  border-radius: 5px; 
+  width: 80%;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    padding: 10px;
+    background-color: #333
+}
+
+.carousel-caption a {
+  color: #f2f2f2;
+}
+
+#portfolio a:hover {
+  text-decoration: none;
+}
+
+.carousel, .carousel-inner > .item > img {
+  margin: 0 auto;
+  max-width: 900px;
+  max-height: 500px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+/* CONTACT section */
+
+#contact {
+  background: url("https://farm2.staticflickr.com/1468/26244133732_a59bc086e3_k.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.contactBox {
+  border: 5px solid black;
+  width: 40%;
+  background-color: #f2f2f2;
+  background-color: rgba(242,242,242, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+
+}
+
+@media (max-width: 925px){
+  .contactBox {
+    width: 90%;
+  }
+}
+
+#contact p {
+  font-size: 1.5em;
+}
+
+#contact i {
+  color: black;
+  margin: .1em;
+}
+
+i:hover {
+  transform:scale(1.5);
+  transition: 0.2s;
+}
+
+
+/* FOOTER */
+
+.footer {
+  border-top: 2px solid black;
+}
