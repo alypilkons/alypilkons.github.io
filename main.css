@@ -49,12 +49,6 @@
     border: 5px solid #404040;
 }
 
-@media (max-width: 600px) {
-    .homeBox {
-        width: 95%;
-    }
-}
-
 #home h2 {
     font-family: 'Lato', sans-serif;
     color: #404040;
@@ -90,8 +84,18 @@
     cursor: pointer;
 }
 
+
 #home a {
     color: #333;
+}
+
+@media (max-width: 600px) {
+    .homeBox {
+        width: 95%;
+    }
+    .arrowBox {
+        display: none;
+    }
 }
 
 
@@ -157,6 +161,10 @@
     word-spacing: 15px;
     font-weight 700;
     font-weight: bold;
+}
+
+.skills2 {
+    margin-bottom: 20px;
 }
 
 .underline {
@@ -257,7 +265,7 @@
         width: 90%;
   }
     .contactTitle {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 }
 
