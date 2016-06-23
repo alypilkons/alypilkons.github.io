@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<title>Aly Pilkons | Web Developer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8">
-<meta name="author" content="Aly Pilkons">
-<meta name="description" content="Aly Pilkons | Web Developer Portfolio Website">
-<meta name="keywords" content="Aly Pilkons, web developer, Raleigh NC, front end web development, javascript">
-
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="main.css" type="text/css">
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Aly Pilkons">
+    <meta name="description" content="Aly Pilkons | Web Developer Portfolio Website">
+    <meta name="keywords" content="Aly Pilkons, web developer, Raleigh NC, front end web development, javascript">
+    <title>Aly Pilkons | Web Developer</title>
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="vendor/animate.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 <body>
 <!--NAVBAR-->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -26,17 +35,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Aly Pilkons</a>
+        <a class="navbar-brand" href="#"><span class="alyHome">Aly Pilkons</span></a>
     </div> 
-
     <div class="navbar-collapse collapse" id="myNavbar"> 
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#aboutMe">About Me</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#home" class="link">Home</a></li>
+      <li><a href="#aboutMe" class="link">About Me</a></li>
+      <li><a href="#portfolio" class="link">Portfolio</a></li>
+      <li><a href="#contact" class="link">Contact</a></li>
     </ul>
-  </div>
+   </div>
   </div>
 </nav>
 <!--END NAVBAR-->    
@@ -53,232 +61,211 @@
         <br>
 
           <a href="https://github.com/alypilkons" target="_blank">
-          <i class="fa fa-github fa-2x"></i></a>
+          <i class="fa fa-github fa-2x soc"></i></a>
 
           <a href="https://www.linkedin.com/in/alypilkons" target="_blank">
-          <i class="fa fa-linkedin fa-2x"></i></a>
+          <i class="fa fa-linkedin fa-2x soc"></i></a>
 
-          <a href="http://www.twitter.com/alypilkons" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+          <a href="http://www.twitter.com/alypilkons" target="_blank"><i class="fa fa-twitter-square fa-2x soc"></i></a>
       
           <a href="http://www.freecodecamp.com/alypilkons" target="_blank">
-          <i class="fa fa-fire fa-2x"></i></a>
+          <i class="fa fa-fire fa-2x soc"></i></a>
 
           <a href="http://codepen.io/alypilkons/" target="_blank">
-          <i class="fa fa-codepen fa-2x"></i></a>
+          <i class="fa fa-codepen fa-2x soc"></i></a>
 
         <br>
         <br>
       </div>
     </div>
   </div>
+    <div class="arrowBox">
+        <a href="#aboutMe"><i class="fa fa-chevron-down fa-4x animated infinite pulse" aria-hidden="true"></i></a>
+    </div>
 </div>
 <!--END HOME-->
 
 <!--ABOUT ME section-->
 <div id="aboutMe" class="content-section">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-7 col-xs-12">
-        <h1>About Me</h1>
-          <br>
-          <p>Hi, I'm Aly Pilkons. I'm a former teacher turned front-end web developer. I have a BA in liberal arts from Hampshire College where I studied creative writing and visual art, and I love bringing my art background into my web development process and creating beautiful, responsive, user-friendly sites and apps.</p>
-          <br>
-          <br>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="col-md-5 col-xs-12">
-          <img class=" center-block" src="https://farm2.staticflickr.com/1716/26147200852_8c3fc00a07_b.jpg">
+      <div class="aboutMePart1">
+        <div class="row">
+          <img class="center-block aly" src="https://farm2.staticflickr.com/1716/26147200852_8c3fc00a07_b.jpg" alt="alyphoto">
+        </div> 
+        <div class="container-fluid">  
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="introTitle"><span class="underline">Hi, I'm Aly</span></h1>
+              <br>
+              <p>I'm a former teacher turned front-end web developer. I have a BA in liberal arts from Hampshire College where I studied creative writing and visual art, and I love bringing my art background into my web development process and creating beautiful, responsive, user-friendly sites and apps.</p>
+              <br>
+              <br>
+            </div>
         </div>
       </div>
     </div>
-    <br>
-    <br>
-    <!--<hr style="background:#d9d9d9; height:2px" />-->
-    <hr>
-    <br>
+  </div>
+  <div id="skillsSection" class="content-section">
     <div class="container-fluid skillsSection">
       <div class="row">
         <div class="col-md-12">
-          <h1>Skills</h1>
+          <h1 class="skillsTitle"><span class="skillsUnderline">My Skillset</span></h1>
           <br>
-          <p class="skills">In April 2016 I completed FreeCodeCamp's 400 hour front-end development curriculum and earned my <a href="https://www.freecodecamp.com/alypilkons/front-end-certification">Front End Development Certification</a>.</p>
-          <p class="skills">Currently, I am proficient in HTML5, CSS3, Bootstrap, Javascript, jQuery, and AJAX, as well as in version control using Git/GitHub.</p>
+            <p class="skillList">HTML5 CSS3 JavaScript jQuery AJAX Git/GitHub</p>
+            <br>
+            <p class="skills">In April 2016 I completed FreeCodeCamp's 400 hour front-end development curriculum and earned a <a href="https://www.freecodecamp.com/alypilkons/front-end-certification">Front End Development Certificate</a>.</p>
+            <br>
+            <p class="skills">Along with the above technologies, I also have experience using media queries and front-end frameworks like Bootstrap to create responsive designs that look great on all screen sizes.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 <!--END About me-->
 
 <!--PORTFOLIO section-->
-<div id="portfolio" class="content-section">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Portfolio</h1>
-        <br>
-        <p>Click on the photo captions to see my code for each project on <a href="http://codepen.io/alypilkons/" class="codePenLink">CodePen</a></p>
-      </div>
-      <br>
-    </div>
-    <div class="row">
-    <br>
-    <br>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-
-    <div class="item active">
-      <img src="https://farm2.staticflickr.com/1647/25986630310_dc4108f43e_b.jpg" alt="Harold and Maude Quote Generator">
-      <div class="carousel-caption"><a href="http://codepen.io/alypilkons/pen/adzZXy">
-        <h3>"Harold and Maude" Quote Generator</h3>
-        <p>-Displays a quote from the movie each time the user clicks a button</p>
-        <p>-Allows user the option to Tweet any of the quotes</p>
-        <p>-Built with HTML, CSS, and Javascript</p>
-        </a>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="https://farm2.staticflickr.com/1459/26259484795_0ecab740d1_b.jpg" alt="Local Weather App">
-      <div class="carousel-caption"><a href="http://codepen.io/alypilkons/pen/EKZNgW">
-        <h3>Local Weather App</h3>
-        <p>-Built with HTML, CSS, jQuery, and AJAX</p>
-        <p>-Uses AJAX to retrieve the current weather conditions in user's location</p>
-        <p>-Background images changes based on conditions, and user can toggle between Fahrenheit and Celsius</p></a>
-      </div>
-    </div>
-
-
-    <div class="item">
-      <img src="https://farm2.staticflickr.com/1461/25656795633_aa36ddfbf9_b.jpg" alt="Calculator">
-      <div class="carousel-caption"><a href="http://codepen.io/alypilkons/pen/LNVwPM">
-        <h3>jQuery Calculator</h3>
-        <p>-A working calculator, built using HTML, CSS, and jQuery</p></a>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="https://farm2.staticflickr.com/1606/25986629220_56d905157b_b.jpg" alt="Minimalist Tic Tac Toe">
-      <div class="carousel-caption"><a href="http://codepen.io/alypilkons/pen/xVLyrv">
-        <h3>Minimalist Tic Tac Toe</h3>
-        <p>-A playable tic-tac-toe game, built with HTML, CSS, and jQuery</p>
-        <p>-Created the challenging (but defeatable) game AI</p></a>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="https://farm2.staticflickr.com/1649/25689592353_b31ffd20d6_b.jpg" alt="Pomodoro Timer">
-      <div class="carousel-caption"><a href="http://codepen.io/alypilkons/pen/GZWBXg">
-        <h3>Pomodoro Timer</h3>
-        <p>-An interactive timer, built with HTML, CSS, and JavaScript</p>
-        <p>-User can change the length of time and start/stop/pause the timer</p></a>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="https://farm2.staticflickr.com/1712/26167035082_96a9a7e411_b.jpg" alt="Wikipedia Viewer">
-      <div class="carousel-caption"><a href="http://codepen.io/alypilkons/pen/XdpbEa">
-        <h3>Wikipedia Viewer</h3>
-        <p>-Built using HTML, CSS, jQuery, and AJAX</p>
-        <p>-Allows user to type into a search field, then retrieves and displays top search results from Wikipedia</p></a>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="https://farm2.staticflickr.com/1574/26259486745_a9de6aacd0_b.jpg" alt="Simon Game">
-      <div class="carousel-caption"><a href="http://codepen.io/alypilkons/pen/dMZXEV">
-        <h3>Interactive Simon Game</h3>
-        <p>-Plays a series of flashing shapes for the user to repeat</p>
-        <p>-Player can toggle between normal and "strict" mode</p>
-        <p>-Built using HTML, CSS, and jQuery</p></a>
-      </div>
-    </div>
-
-
-    <div class="item">
-      <img src="https://farm2.staticflickr.com/1667/26291930345_b7515c9f18_b.jpg" alt="Twitch Status App">
-      <div class="carousel-caption"><a href="http://codepen.io/alypilkons/pen/VaWzPJ">
-        <h3>Twitch.tv Status App</h3>
-        <p>-Uses AJAX to retrieve online/offline status of Twitch.tv streamers</p>
-        <p>-Built with HTML, CSS, jQuery, and AJAX</p></a>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-    </a>
-    </div>
-    </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br> 
-      </div>
-    </div>
-  </div>
-</div>
-
+	<div id="portfolio" class="content-section">
+      <div class="container container-fluid smooth">
+        <h1><span class="portUnderline">My Portfolio</span></h1>
+          
+            <div class="row centered portfolioItem">
+			  <div class="col-md-6 portImgCont">
+                <a href="http://alypilkons.com/squares"><img class="portImg" src="img/squares.png"></a>
+			  </div>
+              <div class="col-md-6 portTextCont">
+                <h3 class="portTitle">Squares</h3>
+                <p><i>A game that uses color theory to teach analytical thinking</i></p>
+                <p class="technologies">HTML CSS JavaScript jQuery</p>
+                <p>Read more about the game on my <a href="https://github.com/alypilkons/squares">GitHub</a> page</p>
+                <p>Play the game <a href="http://alypilkons.com/squares">here</a></p>
+              </div>
+            </div>
+            
+            
+            <div class="row centered portfolioItem">
+			  <div class="col-md-6 portImgCont">
+                <a href="http://codepen.io/alypilkons/pen/XdpbEa"><img class="portImg" src="img/wikipedia.png"></a>
+			  </div>
+              <div class="col-md-6 portTextCont">
+                <h3 class="portTitle">Wikipedia Viewer</h3>
+                <p><i>Allows user to type into a search field, then retrieves and displays top results from Wikipedia</i></p>
+                <p class="technologies">HTML CSS jQuery AJAX</p>
+                <p>Try it out <a href="http://codepen.io/alypilkons/pen/XdpbEa">here</a></p>
+              </div>
+            </div>
+        
+            <div class="row centered portfolioItem">
+			  <div class="col-md-6 portImgCont">
+                <a href="http://codepen.io/alypilkons/pen/LNVwPM"><img class="portImg" src="img/calc.png"></a>
+			  </div>
+              <div class="col-md-6 portTextCont">
+                <h3 class="portTitle">Calculator</h3>
+                <p><i>Adds, subtracts, multiplies, and divides numbers</i></p>
+                <p class="technologies">HTML CSS jQuery</p>
+                <p>Try it out <a href="http://codepen.io/alypilkons/pen/LNVwPM">here</a></p>
+              </div>
+            </div>
+        
+           <div class="row centered portfolioItem">
+			 <div class="col-md-6 portImgCont">
+                <a href="http://codepen.io/alypilkons/pen/xVLyrv"><img class="portImg" src="img/tictactoe.png"></a>
+			 </div>
+             <div class="col-md-6 portTextCont">
+                <h3 class="portTitle">Tic Tac Toe</h3>
+                <p><i>Tic tac toe game with clean, minimalist interface</i></p>
+                <p class="technologies">HTML CSS JavaScript jQuery</p>
+                <p>Play the game <a href="http://codepen.io/alypilkons/pen/xVLyrv">here</a></p>
+             </div>
+          </div>
+            
+            <div class="row centered portfolioItem">
+			  <div class="col-md-6 portImgCont">
+                <a href="http://codepen.io/alypilkons/pen/EKZNgW"><img class="portImg" src="img/weather.png"></a>
+			  </div>
+              <div class="col-md-6 portTextCont">
+                <h3 class="portTitle">Local Weather App</h3>
+                <p><i>Obtains user's location and displays current weather conditions in that location</i></p>
+                <p class="technologies">HTML CSS jQuery AJAX</p>
+                <p>Try it out <a href="http://codepen.io/alypilkons/pen/EKZNgW">here</a></p>
+              </div>
+            </div>
+            
+              
+            <div class="row centered portfolioItem">
+			  <div class="col-md-6 portImgCont">
+                <a href="http://codepen.io/alypilkons/pen/dMZXEV"><img class="portImg" src="img/simon.png"></a>
+			  </div>
+              <div class="col-md-6 portTextCont">
+                <h3 class="portTitle">Simon Game</h3>
+                <p><i>Interactive Simon game with flashing colors/sounds and two difficulty settings</i></p>
+                <p class="technologies">HTML CSS JavaScript jQuery</p>
+                <p>Play the game <a href="http://codepen.io/alypilkons/pen/dMZXEV">here</a></p>
+              </div>
+            </div>
+            
+            <div class="row centered portfolioItem lastPortfolioItem">
+			  <div class="col-md-6 portImgCont">
+                <a href="http://codepen.io/alypilkons/pen/VaWzPJ"><img class="portImg" src="img/twitch.png"></a>
+			  </div>
+              <div class="col-md-6 portTextCont">
+                <h3 class="portTitle">Twitch.tv Status App</h3>
+                <p><i>Retrieves online/offline status of Twitch.tv streamers</i></p>
+                <p class="technologies">HTML CSS jQuery AJAX</p>
+                <p>Try it out <a href="http://codepen.io/alypilkons/pen/VaWzPJ">here</a></p>
+              </div>
+            </div>
+            <br>
+		</div>
+	</div>
+<!-- END portfolio section -->
+    
 <!--CONTACT section-->
 <div id="contact" class="content-section">
   <div class="container-fluid contactBox">
     <div class="row">
       <div class="col-md-12">
-        <h1>Connect with me!</h1>
+          <h1 class="contactTitle">Connect with me</h1>
       </div>
+        
+      <div class="row">
+        <div class="col-md-12">
+          <a href="https://github.com/alypilkons" target="_blank">
+          <i class="fa fa-github fa-3x soc2"></i></a>
 
-      <a href="https://github.com/alypilkons" target="_blank">
-        <i class="fa fa-github fa-2x"></i></a>
-
-      <a href="https://www.linkedin.com/in/alypilkons" target="_blank">
-        <i class="fa fa-linkedin fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/alypilkons" target="_blank">
+          <i class="fa fa-linkedin fa-3x soc2"></i></a>
       
-      <a href="http://www.twitter.com/alypilkons" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+          <a href="http://www.twitter.com/alypilkons" target="_blank"><i class="fa fa-twitter-square fa-3x soc2"></i></a>
       
-      <a href="http://www.freecodecamp.com/alypilkons" target="_blank">
-        <i class="fa fa-fire fa-2x"></i></a>
+          <a href="http://www.freecodecamp.com/alypilkons" target="_blank">
+          <i class="fa fa-fire fa-3x soc2"></i></a>
 
-      <a href="http://codepen.io/alypilkons/" target="_blank">
-        <i class="fa fa-codepen fa-2x"></i></a>
-
-      <br>
-      <br>
-      <p>Or email at <a href="mailto:alyssapilkons@gmail.com">alyssapilkons@gmail.com</a></p>
+          <a href="http://codepen.io/alypilkons/" target="_blank">
+          <i class="fa fa-codepen fa-3x soc2"></i></a>
+        </div>
+        <br>
+            
+        <div class="col-md-12">
+          <p class="email"><a href="mailto:alyssapilkons@gmail.com">alypilkons@gmail.com</a></p>
         </div>
       </div>
     </div>
   </div>
 </div>
+<!--END contact section -->  
 
 <!--FOOTER-->
 <div class="navbar navbar-static-bottom footer">
   <div class="container">
     <div class="navbar-text pull-left">
-    <p>© 2016 Design and Code by Aly Pilkons</p>
+    <p class="copyright">© 2016 Design and Code by Aly Pilkons</p>
     </div>
   </div>
 </div>
+<!--END footer-->
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
