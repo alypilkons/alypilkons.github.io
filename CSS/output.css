@@ -14,8 +14,7 @@ body {
 #home {
   min-height: 100vh;
   background-color: #B1D084;
-  background: url("https://c3.staticflickr.com/8/7625/26249830274_19aeda73ad_k.jpg") no-repeat;
-  /*background: url('img/bridgeimage.jpg') no-repeat;*/
+  background: url('img/bridgeimage.jpg') no-repeat;
   background-size: cover; }
 
 .homeBox {
