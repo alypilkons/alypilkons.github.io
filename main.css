@@ -1,0 +1,64 @@
+html.wf-loading * {
+  opacity: 0;
+}
+
+body, div, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #222831;
+}
+
+h1, h2 {
+  color: #d3dbff;
+  font-family: 'Cousine', monospace;
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  font-family: sans-serif;
+  display: none;
+}
+
+.fab,
+.fas {
+  color: #99d8d0;
+  font-size: 40px;
+  margin: 0 15px;
+}
+
+.fab:hover,
+.fas:hover {
+  color: #0bb9b9;
+}
+
